@@ -1,0 +1,5 @@
+build
+bson.node
+.lock-wscript
+npm-debug.log
+
