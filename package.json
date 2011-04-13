@@ -1,14 +1,22 @@
 {
   "name": "bson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
-	"type": "git",
-	"url": "https://0ctave@github.com/0ctave/node-bson.git"
+    "type": "git",
+    "url": "git://github.com/0ctave/node-bson.git"
   },
   "description": "BSON library for node",
   "author": "Christian Amor Kvalheim <christkv@gmail.com>",
-  "contributors" :  [ "Yuriy Bogdanov <chinsay@gmail.com>" ],
-  "scripts": { "install" : "make all" },
+  "contributors": [
+    "Yuriy Bogdanov <chinsay@gmail.com>"
+  ],
+  "scripts": {
+    "install": "make all"
+  },
   "main": "./bson.node",
-  "engines": { "node": ">=0.4.0" }
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
